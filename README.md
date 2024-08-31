@@ -24,3 +24,20 @@ This repository contains the solution for the Gaza Sky Geeks Take Home Task #1. 
 - **Tool Installation:**
   - Sleuth Kit
   - EWF (try `ewfacquire`)
+
+## System Setup
+
+### 1. Ubuntu Installation
+`Note: My device runs on Ubuntu Linux. I don't use any VM tools; it's the system on the physical device.`
+To check the partitions and the space each one occupies on the hard drive in an Ubuntu
+system, we use the following command in the terminal:
+
+ ```bash
+df -h
+
+```
+Install Ubuntu 24 with the specified RAM and hard disk size. During the installation, manually create the following partitions:
+- `swap`
+- `/`
+- `/boot`
+- `/home`
