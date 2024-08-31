@@ -7,7 +7,6 @@ This repository contains the solution for the Gaza Sky Geeks Take Home Task #1. 
 - [System Setup](#system-setup)
 - [Directory Structure](#directory-structure)
 - [Tool Installation](#tool-installation)
-- [Task Progress](#task-progress)
 - [Screenshots](#screenshots)
 
 ## Task Overview
@@ -81,3 +80,37 @@ or
 *   `mkdir Evidence`
 *   `mkdir Reports`
 *   `mkdir Scripts`
+
+## Tool Installation
+### 4. Installing Necessary Requirements
+
+Install the necessary packages for converting source code to executables:
+```bash
+sudo apt-get install build-essential
+```
+
+### 5. Download and Install Sleuth Kit
+
+Download Sleuth Kit from GitHub and convert it to an executable:
+* `git clone https://github.com/sleuthkit/sleuthkit.git`
+* `cd sleuthkit`
+* `./bootstrap`
+* `./configure`
+* `make`
+* `sudo make install`
+
+### 6. Download and Install EWF
+
+Download EWF from GitHub and convert it to an executable
+
+* `git clone https://github.com/libyal/libewf.git`
+* `cd libewf`
+* `./synclibs.sh`
+* `./autogen.sh`
+* `./configure`
+* `make`
+* `sudo make install`
+* `sudo ewfacquire`
+
+## Screenshots
+
