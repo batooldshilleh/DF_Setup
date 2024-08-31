@@ -48,4 +48,12 @@ After installation, update and upgrade the system using the following commands:
 sudo apt-get update
 sudo apt-get upgrade
 ```
- **Note** : we use `sudo` to execute commands with superuser privileges, allowing us to perform administrative tasks like installing or updating software
+- **Note 1: Why use `sudo`?**  
+  We use the `sudo` command to execute commands with superuser privileges, allowing us to perform administrative tasks like installing or updating software. It temporarily elevates our user privileges to those of the root user, which is necessary for system-level operations.
+
+- **Note 2: Why enter the password?**  
+  Typically, when using `sudo`, we would be prompted to enter our user password as a security measure. However, since we're working in the same terminal session, we weren't asked to enter the password again.
+
+- **Additional Note:**  
+  If you'd like to clear the previous commands from the terminal screen, use the `clear` command.
+
