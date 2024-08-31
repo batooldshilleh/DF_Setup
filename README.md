@@ -142,34 +142,139 @@ sudo ewfacquire
 
 ### 9. Directory Structure Screenshots
 - Screenshot of the directory structure for `Forensics_Projects`, showing all subdirectories.
+  <br>
+  <br>
+1.  Create a main directory called Forensics_Projects
    <br>
   <br>
+  
 ![image](https://github.com/user-attachments/assets/cfb42719-30ba-45fe-ad01-18fa02a06c02)
 
  <br>
   <br>
+  2.  enter a directory.
+   <br>
+  <br>
   
   ![image](https://github.com/user-attachments/assets/5bbe2aba-abe4-4af4-be6d-79179aa95417)
+  
 <br>
 <br>
+
+3.  create subdirectories
+   <br>
+  <br>
 
 ![image](https://github.com/user-attachments/assets/8f2ba7a2-0b81-4a69-b9d5-1c251bcb407f)
 <br>
 <br>
+
+4.  Within Case_01
+ *  Enter the directory using `cd`.
+ *  Use `mkdir` to create directories inside it.
+ *  Use the `ls` command to list the contents of the directory.
+   <br>
+  <br>
 
 ![image](https://github.com/user-attachments/assets/b3063dc1-921b-4793-8efc-97eaade30ec6)
 
 <br>
 <br>
 
+5.  Within Case_02
+ * Go back to the previous directory using the command `cd ..`.
+ *  Enter the directory using `cd`.
+ *  Use `mkdir` to create directories inside it.
+ *  Use the `ls` command to list the contents of the directory.
+   <br>
+  <br>
+
 ![image](https://github.com/user-attachments/assets/79438126-4e95-4ebe-a6b2-89b82350cc82)
 
 <br>
 <br>
 
+6.  Within Case_03
+ * Go back to the previous directory using the command `cd ..`.
+ *  Enter the directory using `cd`.
+ *  Use `mkdir` to create directories inside it.
+ *  Use the `ls` command to list the contents of the directory.
+   <br>
+  <br>
+
 ![image](https://github.com/user-attachments/assets/ac837ab2-238d-4fb1-8976-5843320f3653)
 
 ### 10. Tool Installation Screenshots
 - Screenshot of the terminal during the Sleuth Kit installation process.
+  <br>
+<br>
+
+1- Clone the repository:
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/eecb201f-480c-4a34-a52d-fe01570c77a6)
+
+
+<br>
+<br>
+
+2- Navigate to the project folder:
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/a8179b03-438a-475d-a9b5-9bb8cc62e7f6)
+
+<br>
+<br>
+3- Run the setup script:
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/93ea6bd1-59e9-4027-8757-fd4084b94a5e)
+
+
+<br>
+<br>
+4- Configure the project:
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/fa33fe14-e3ae-46e3-901e-18dd3ffb4916)
+
+
+<br>
+<br>
+
+5- Build the project:
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/f653178a-8874-4a02-aa8c-1cbb1951e3dd)
+
+
+<br>
+<br>
+![image](https://github.com/user-attachments/assets/e1e6d576-0550-44b2-911b-ef3c117b61b3)
+
+<br>
+<br>
+
+6- Install the project:
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/56725073-029f-4696-ab04-95bd96813242)
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/485987b9-7323-46dc-bbf3-d32e9025b744)
+
+<br>
+<br>
+
 - Screenshot of the terminal during the EWF installation process.
-```
+
