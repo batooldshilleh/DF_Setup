@@ -41,3 +41,11 @@ Install Ubuntu 24 with the specified RAM and hard disk size. During the installa
 - `/`
 - `/boot`
 - `/home`
+
+### 2. Applying Updates and Upgrades
+After installation, update and upgrade the system using the following commands:
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+ **Note** : we use `sudo` to execute commands with superuser privileges, allowing us to perform administrative tasks like installing or updating software
