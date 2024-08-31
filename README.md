@@ -56,4 +56,28 @@ sudo apt-get upgrade
 
 - **Additional Note:**  
   If you'd like to clear the previous commands from the terminal screen, use the `clear` command.
-
+## Directory Structure
+### 3. Creating Directories
+```bash
+mkdir -p ~/Forensics_Projects/{Case_01/{Evidence,Reports,Scripts},Case_02/{Evidence,Reports,Scripts},Case_03/{Evidence,Reports,Scripts}}
+```
+or 
+*  `mkdir Forensics_Projects `
+*   `cd Forensics_Projects `
+*   `mkdir Case_01`
+*   `cd Case_01`
+*   `mkdir Evidence`
+*   `mkdir Reports`
+*   `mkdir Scripts`
+*   `cd ..`
+*   mkdir Case_02`
+*   `cd Case_02`
+*   `mkdir Evidence`
+*   `mkdir Reports`
+*   `mkdir Scripts`
+*   `cd ..`
+*   mkdir Case_03`
+*   `cd Case_03`
+*   `mkdir Evidence`
+*   `mkdir Reports`
+*   `mkdir Scripts`
